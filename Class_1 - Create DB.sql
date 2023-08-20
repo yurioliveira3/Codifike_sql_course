@@ -1,0 +1,11 @@
+-- DB 
+CREATE DATABASE projetomnc;
+
+-- USER
+CREATE USER jose;
+
+-- SCHEMA
+CREATE SCHEMA mnc;
+
+-- PERMISSIONS
+GRANT ALL ON SCHEMA mnc TO jose;
